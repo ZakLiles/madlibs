@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <title>A Compliment</title>
+</head>
+<body>
+    <form method="POST" action="{{ url_for('show_madlib_form') }}">
+      <p>Wanna play a game?</p>
+      <input type="radio" id="yes" name="game_answer" value="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="game_answer" value="no">
+      <label for="no">No</label>
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
